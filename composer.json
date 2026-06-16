@@ -1,0 +1,20 @@
+{
+  "name": "toweringmedia/module-usps-rest-api",
+  "description": "Real-time USPS shipping rates at Magento 2 checkout using USPS REST API v3. Secure OAuth2 authentication replacing legacy USPS Web Tools integrations. Built-in rate caching improves checkout speed and reduces API calls. Supports Ground Advantage, Priority Mail, Express, and First-Class services. Includes admin Test Connection and Test Rate tools plus optional debug logging",
+  "type": "magento2-module",
+  "homepage": "https://toweringmedia.com/magento-2-usps-oauth-shipping-extension-real-time-usps-rates-via-rest-api-v3",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1",
+    "magento/framework": ">=103.0"
+  },
+  "support": {
+    "docs": "https://toweringmedia.com/magento-2-usps-oauth-shipping-extension-real-time-usps-rates-via-rest-api-v3",
+    "source": "https://github.com/Toweringmedia-extensions/module-usps-rest-api"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}
